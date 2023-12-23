@@ -4,34 +4,32 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇭CH | 8.78Mb, server: 64.110.90.224, port: 40003, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, skip-cert-verify: false}
-  - {name: Relay_🇨🇭CH |36.25Mb, server: 64.110.90.224, port: 40004, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_18, server: official.taipeicitygovernment.kiev.ua, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, skip-cert-verify: false}
-  - {name: 🇩🇪 Relay_🇩🇪DE |12.72Mb, server: 5.104.107.143, port: 443, type: trojan, password: ca67d9ab-5e39-453a-9419-3d7577358979, skip-cert-verify: false}
-  - {name: 🇭🇰 Relay_🇭🇰HK |71.88Mb, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 0c188781-2971-4bd9-ad72-73eb860d115f, skip-cert-verify: false}
-  - {name: 🇭🇰 Relay_🇭🇰HK |35.27Mb, server: hk02.trojanyyds.xyz, port: 443, type: trojan, password: ae4da236-bfec-4673-9e1e-bbbd942162a8, skip-cert-verify: false}
-  - {name: 🇭🇰 Relay_🇭🇰HK |69.59Mb, server: home-hkt-2.strongpipe.live, port: 29444, type: trojan, password: 7f831d7a-4890-4443-9db6-d3ae18d782a1, skip-cert-verify: false}
-  - {name: 🇰🇷 Relay_🇰🇷KR |10.98Mb, server: kr2.twincloud.xyz, port: 443, type: trojan, password: 6455f944-7c07-4ab0-b88f-440e581f41d9, skip-cert-verify: false}
-  - {name: 🇷🇺 RU_93, server: 185.4.64.225, port: 443, type: trojan, password: da0e6c09e0664d868b362c29624f93de, skip-cert-verify: false}
-  - {name: 🇨🇳 Relay_🇹🇼TW |20.19Mb, server: levuior.taiwanesefood.link, port: 443, type: trojan, password: 2FlAxyOy3ScaC5xNOSFeRqZgASj73CpIlCYTE8p4DaBD3Rn3zXe9Y80uaZwD6K, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US |68.04Mb, server: in01.trojanyyds.xyz, port: 443, type: trojan, password: 36d48ba9-7445-4b41-b210-58f4e07a627a, skip-cert-verify: false}
-  - {name: 🇺🇸 US_140, server: jp.liangyuandiancloud.com, port: 443, type: trojan, password: 3b31223a-960a-4166-b37f-edf0a23b884b, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US |11.82Mb, server: ru01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_142 |24.64Mb, server: ukjs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959, skip-cert-verify: false}
-  - {name: 🇲🇾 Relay_🇺🇸US-🇲🇾MY_143, server: my02.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US |25.26Mb, server: need.uno, port: 443, type: trojan, password: 6aWFNbrFDs, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US |16.47Mb, server: tj1.dalazhi.eu.org, port: 443, type: trojan, password: d256e73b-8259-490a-aeb5-23f6a3636a1a, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US | 8.36Mb, server: 68.233.121.121, port: 40004, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, skip-cert-verify: false}
-  - {name: 🇺🇸 US_147, server: my01.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, skip-cert-verify: false}
-  - {name: 🇺🇸 US_148, server: hk01.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US |38.58Mb, server: in01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, skip-cert-verify: false}
-  - {name: 🇺🇸 US_150, server: hk02.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US | 5.19Mb, server: 68.233.121.121, port: 40003, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, skip-cert-verify: false}
-  - {name: 🇺🇸 US_152, server: jp2.twincloud.xyz, port: 443, type: trojan, password: 6455f944-7c07-4ab0-b88f-440e581f41d9, skip-cert-verify: false}
-  - {name: 🇺🇸 US_153, server: cajs.liangyuandiancloud.com, port: 443, type: trojan, password: 96f625d7-f202-46b0-b679-34f8289c6945, skip-cert-verify: false}
-  - {name: ZZ_156, server: 5.44.249.44, port: 3306, type: trojan, password: d02058f4f819dced, skip-cert-verify: false}
-  - {name: ZZ_157, server: 5.44.249.53, port: 3306, type: trojan, password: 70face6dd320ea29, skip-cert-verify: false}
-  - {name: ZZ_158, server: 5.44.249.42, port: 3306, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: false}
+  - {name: Relay_ |36.25Mb, server: 64.110.90.224, port: 40004, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, skip-cert-verify: false}
+  - {name: Relay_ | 8.78Mb, server: 64.110.90.224, port: 40003, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_19, server: official.taipeicitygovernment.kiev.ua, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, skip-cert-verify: false}
+  - {name: Relay_ |12.72Mb, server: 5.104.107.143, port: 443, type: trojan, password: ca67d9ab-5e39-453a-9419-3d7577358979, skip-cert-verify: false}
+  - {name: Relay_ |69.59Mb, server: home-hkt-2.strongpipe.live, port: 29444, type: trojan, password: 7f831d7a-4890-4443-9db6-d3ae18d782a1, skip-cert-verify: false}
+  - {name: Relay_ |71.88Mb, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 0c188781-2971-4bd9-ad72-73eb860d115f, skip-cert-verify: false}
+  - {name: Relay_ |35.27Mb, server: hk02.trojanyyds.xyz, port: 443, type: trojan, password: ae4da236-bfec-4673-9e1e-bbbd942162a8, skip-cert-verify: false}
+  - {name: Relay_ |10.98Mb, server: kr2.twincloud.xyz, port: 443, type: trojan, password: 6455f944-7c07-4ab0-b88f-440e581f41d9, skip-cert-verify: false}
+  - {name: 🇷🇺 RU_94, server: 185.4.64.225, port: 443, type: trojan, password: da0e6c09e0664d868b362c29624f93de, skip-cert-verify: false}
+  - {name: Relay_ |20.19Mb, server: levuior.taiwanesefood.link, port: 443, type: trojan, password: 2FlAxyOy3ScaC5xNOSFeRqZgASj73CpIlCYTE8p4DaBD3Rn3zXe9Y80uaZwD6K, skip-cert-verify: false}
+  - {name: Relay_ |38.58Mb, server: in01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, skip-cert-verify: false}
+  - {name: 🇺🇸 US_170, server: sk01.trojanyyds.xyz, port: 443, type: trojan, password: d8fd60d7-4c50-47c8-9e2d-adf37ad81af4, skip-cert-verify: false}
+  - {name: 🇲🇾 Relay_🇺🇸US-🇲🇾MY_171, server: my02.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, skip-cert-verify: false}
+  - {name: Relay_ |25.26Mb, server: need.uno, port: 443, type: trojan, password: 6aWFNbrFDs, skip-cert-verify: false}
+  - {name: Relay_ |68.04Mb, server: in01.trojanyyds.xyz, port: 443, type: trojan, password: 36d48ba9-7445-4b41-b210-58f4e07a627a, skip-cert-verify: false}
+  - {name: 🇺🇸 US_174, server: jp2.twincloud.xyz, port: 443, type: trojan, password: 6455f944-7c07-4ab0-b88f-440e581f41d9, skip-cert-verify: false}
+  - {name: Relay_ | 5.19Mb, server: 68.233.121.121, port: 40003, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, skip-cert-verify: false}
+  - {name: 🇺🇸 US_176, server: hk02.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, skip-cert-verify: false}
+  - {name: Relay_ | 8.36Mb, server: 68.233.121.121, port: 40004, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, skip-cert-verify: false}
+  - {name: 🇺🇸 US_178, server: hk01.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇹🇼TW_179 |64.68Mb, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, skip-cert-verify: false}
+  - {name: Relay_ |16.47Mb, server: tj1.dalazhi.eu.org, port: 443, type: trojan, password: d256e73b-8259-490a-aeb5-23f6a3636a1a, skip-cert-verify: false}
+  - {name: Relay_ |11.82Mb, server: ru01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, skip-cert-verify: false}
+  - {name: ZZ_188, server: 5.44.249.44, port: 3306, type: trojan, password: d02058f4f819dced, skip-cert-verify: false}
+  - {name: ZZ_189, server: 5.44.249.53, port: 3306, type: trojan, password: 70face6dd320ea29, skip-cert-verify: false}
+  - {name: ZZ_190, server: 5.44.249.42, port: 3306, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: false}
 proxy-groups:
   - name: Proxies
     type: select
@@ -41,34 +39,32 @@ proxy-groups:
       - JP
       - US
       - TW
-      - Relay_🇨🇭CH | 8.78Mb
-      - Relay_🇨🇭CH |36.25Mb
-      - 🇨🇳 CN_18
-      - 🇩🇪 Relay_🇩🇪DE |12.72Mb
-      - 🇭🇰 Relay_🇭🇰HK |71.88Mb
-      - 🇭🇰 Relay_🇭🇰HK |35.27Mb
-      - 🇭🇰 Relay_🇭🇰HK |69.59Mb
-      - 🇰🇷 Relay_🇰🇷KR |10.98Mb
-      - 🇷🇺 RU_93
-      - 🇨🇳 Relay_🇹🇼TW |20.19Mb
-      - 🇺🇸 Relay_🇺🇸US |68.04Mb
-      - 🇺🇸 US_140
-      - 🇺🇸 Relay_🇺🇸US |11.82Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_142 |24.64Mb
-      - 🇲🇾 Relay_🇺🇸US-🇲🇾MY_143
-      - 🇺🇸 Relay_🇺🇸US |25.26Mb
-      - 🇺🇸 Relay_🇺🇸US |16.47Mb
-      - 🇺🇸 Relay_🇺🇸US | 8.36Mb
-      - 🇺🇸 US_147
-      - 🇺🇸 US_148
-      - 🇺🇸 Relay_🇺🇸US |38.58Mb
-      - 🇺🇸 US_150
-      - 🇺🇸 Relay_🇺🇸US | 5.19Mb
-      - 🇺🇸 US_152
-      - 🇺🇸 US_153
-      - ZZ_156
-      - ZZ_157
-      - ZZ_158
+      - Relay_ |36.25Mb
+      - Relay_ | 8.78Mb
+      - 🇨🇳 CN_19
+      - Relay_ |12.72Mb
+      - Relay_ |69.59Mb
+      - Relay_ |71.88Mb
+      - Relay_ |35.27Mb
+      - Relay_ |10.98Mb
+      - 🇷🇺 RU_94
+      - Relay_ |20.19Mb
+      - Relay_ |38.58Mb
+      - 🇺🇸 US_170
+      - 🇲🇾 Relay_🇺🇸US-🇲🇾MY_171
+      - Relay_ |25.26Mb
+      - Relay_ |68.04Mb
+      - 🇺🇸 US_174
+      - Relay_ | 5.19Mb
+      - 🇺🇸 US_176
+      - Relay_ | 8.36Mb
+      - 🇺🇸 US_178
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_179 |64.68Mb
+      - Relay_ |16.47Mb
+      - Relay_ |11.82Mb
+      - ZZ_188
+      - ZZ_189
+      - ZZ_190
   - name: Apple
     type: select
     proxies:
@@ -109,9 +105,7 @@ proxy-groups:
   - name: HK
     type: select
     proxies:
-      - 🇭🇰 Relay_🇭🇰HK |71.88Mb
-      - 🇭🇰 Relay_🇭🇰HK |35.27Mb
-      - 🇭🇰 Relay_🇭🇰HK |69.59Mb
+      - DIRECT
   - name: SG
     type: select
     proxies:
@@ -119,7 +113,7 @@ proxy-groups:
   - name: TW
     type: select
     proxies:
-      - 🇨🇳 Relay_🇹🇼TW |20.19Mb
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_179 |64.68Mb
   - name: JP
     type: select
     proxies:
@@ -127,21 +121,12 @@ proxy-groups:
   - name: US
     type: select
     proxies:
-      - 🇺🇸 Relay_🇺🇸US |68.04Mb
-      - 🇺🇸 US_140
-      - 🇺🇸 Relay_🇺🇸US |11.82Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_142 |24.64Mb
-      - 🇲🇾 Relay_🇺🇸US-🇲🇾MY_143
-      - 🇺🇸 Relay_🇺🇸US |25.26Mb
-      - 🇺🇸 Relay_🇺🇸US |16.47Mb
-      - 🇺🇸 Relay_🇺🇸US | 8.36Mb
-      - 🇺🇸 US_147
-      - 🇺🇸 US_148
-      - 🇺🇸 Relay_🇺🇸US |38.58Mb
-      - 🇺🇸 US_150
-      - 🇺🇸 Relay_🇺🇸US | 5.19Mb
-      - 🇺🇸 US_152
-      - 🇺🇸 US_153
+      - 🇺🇸 US_170
+      - 🇲🇾 Relay_🇺🇸US-🇲🇾MY_171
+      - 🇺🇸 US_174
+      - 🇺🇸 US_176
+      - 🇺🇸 US_178
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_179 |64.68Mb
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,REJECT
   - DOMAIN-SUFFIX,186078.com,REJECT
