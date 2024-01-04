@@ -35,7 +35,7 @@ proxies:
   - {name: 🇻🇳 VN_192 |83.55Mb, server: 103.232.54.160, port: 80, type: vmess, uuid: d95cded2-816a-4b5d-bb21-6180bd6d4d3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zenpn.com, headers: {Host: dl.kgvn.garenanow.com}}}
   - {name: Relay_ |11.43Mb, server: 188.114.97.3, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
   - {name: Relay_ |11.02Mb, server: 188.114.96.3, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
-  - {name: 🇷🇺 Relay_🏁ZZ-🇷🇺RU_197, server: 162.159.129.87, port: 2096, type: vmess, uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: s1.shargh.shop}}}
+  - {name: 🇷🇺 Relay_🏁ZZ-🇷🇺RU_197 |24.94Mb, server: 162.159.129.87, port: 2096, type: vmess, uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: s1.shargh.shop}}}
 proxy-groups:
   - name: Proxies
     type: select
@@ -76,7 +76,7 @@ proxy-groups:
       - 🇻🇳 VN_192 |83.55Mb
       - Relay_ |11.43Mb
       - Relay_ |11.02Mb
-      - 🇷🇺 Relay_🏁ZZ-🇷🇺RU_197
+      - 🇷🇺 Relay_🏁ZZ-🇷🇺RU_197 |24.94Mb
   - name: Apple
     type: select
     proxies:
