@@ -5,22 +5,24 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇦🇺 AU_08 |17.92Mb, server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Pool_🇨🇦CA_10 |24.82Mb, server: 142.171.237.214, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/221312281009, headers: {Host: www.23168499.xyz}}}
-  - {name: CA_11 |18.07Mb, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CA_10 |18.07Mb, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Pool_🇨🇦CA_11 |24.82Mb, server: 142.171.237.214, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/221312281009, headers: {Host: www.23168499.xyz}}}
   - {name: 🇨🇳 CN_12 |14.40Mb, server: 39.103.165.178, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇨🇳 Pool_🇨🇳CN_13 | 2.13Mb, server: 202.79.171.239, port: 443, type: vmess, uuid: fb3583a3-7717-4fe5-9146-3301861f9f41, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/143534141104, headers: {Host: www.46130221.xyz}}}
   - {name: 🇩🇪 DE_15 | 5.37Mb, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇭🇰 HK_77 | 0.01Mb, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 JP_84 |47.50Mb, server: 167.179.111.237, port: 14935, type: vmess, uuid: e961894f-8e90-472f-98d3-09402e4be453, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇰🇷 Pool_🇰🇷KR_94 | 4.64Mb, server: 27.124.8.132, port: 443, type: vmess, uuid: 9e338965-6a07-4a5f-ad97-d57f4a6e6fd3, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/143534141104, headers: {Host: www.98355923.xyz}}}
-  - {name: 🇺🇸 US_165 |25.80Mb, server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_166 |10.75Mb, server: kellie.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /linkvws, headers: {Host: kellie.makeup}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_167, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/9TfVEyku, headers: {Host: wtywwcrzjp5.yofnhkfc.xyz}}}
-  - {name: 🇺🇸 US_168 | 9.26Mb, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws}}
-  - {name: 🇺🇸 US_169 | 6.80Mb, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_170 |10.06Mb, server: 162.251.62.115, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: ZZ_209 |24.85Mb, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 Relay_🏁ZZ-🇺🇸US_210, server: 08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: mikasa.erenyeager.cloudns.biz}}}
+  - {name: 🇺🇸 US_168 |31.33Mb, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_169 |10.75Mb, server: kellie.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /linkvws, headers: {Host: kellie.makeup}}}
+  - {name: 🇺🇸 US_170 |10.67Mb, server: 132.145.132.227, port: 37121, type: vmess, uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US_171 | 6.80Mb, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_172 |25.80Mb, server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_173 | 9.26Mb, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_174, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/9TfVEyku, headers: {Host: wtywwcrzjp5.yofnhkfc.xyz}}}
+  - {name: 🇺🇸 US_175 |10.06Mb, server: 162.251.62.115, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_176 |24.59Mb, server: 129.146.46.181, port: 52408, type: vmess, uuid: a797ff7b-8161-40a6-d577-1b2c213b3885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: ZZ_198 |24.85Mb, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
 proxy-groups:
   - name: Proxies
     type: select
@@ -31,22 +33,24 @@ proxy-groups:
       - US
       - TW
       - 🇦🇺 AU_08 |17.92Mb
-      - Pool_🇨🇦CA_10 |24.82Mb
-      - CA_11 |18.07Mb
+      - CA_10 |18.07Mb
+      - Pool_🇨🇦CA_11 |24.82Mb
       - 🇨🇳 CN_12 |14.40Mb
       - 🇨🇳 Pool_🇨🇳CN_13 | 2.13Mb
       - 🇩🇪 DE_15 | 5.37Mb
       - 🇭🇰 HK_77 | 0.01Mb
       - 🇯🇵 JP_84 |47.50Mb
       - 🇰🇷 Pool_🇰🇷KR_94 | 4.64Mb
-      - 🇺🇸 US_165 |25.80Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_166 |10.75Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_167
-      - 🇺🇸 US_168 | 9.26Mb
-      - 🇺🇸 US_169 | 6.80Mb
-      - 🇺🇸 US_170 |10.06Mb
-      - ZZ_209 |24.85Mb
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_210
+      - 🇺🇸 US_168 |31.33Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_169 |10.75Mb
+      - 🇺🇸 US_170 |10.67Mb
+      - 🇺🇸 US_171 | 6.80Mb
+      - 🇺🇸 US_172 |25.80Mb
+      - 🇺🇸 US_173 | 9.26Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_174
+      - 🇺🇸 US_175 |10.06Mb
+      - 🇺🇸 US_176 |24.59Mb
+      - ZZ_198 |24.85Mb
   - name: Apple
     type: select
     proxies:
@@ -103,13 +107,15 @@ proxy-groups:
   - name: US
     type: select
     proxies:
-      - 🇺🇸 US_165 |25.80Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_166 |10.75Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_167
-      - 🇺🇸 US_168 | 9.26Mb
-      - 🇺🇸 US_169 | 6.80Mb
-      - 🇺🇸 US_170 |10.06Mb
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_210
+      - 🇺🇸 US_168 |31.33Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_169 |10.75Mb
+      - 🇺🇸 US_170 |10.67Mb
+      - 🇺🇸 US_171 | 6.80Mb
+      - 🇺🇸 US_172 |25.80Mb
+      - 🇺🇸 US_173 | 9.26Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_174
+      - 🇺🇸 US_175 |10.06Mb
+      - 🇺🇸 US_176 |24.59Mb
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,REJECT
   - DOMAIN-SUFFIX,186078.com,REJECT
