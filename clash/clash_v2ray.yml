@@ -4,25 +4,20 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "| 5.82Mb", server: 43.201.253.222, port: 26540, type: vmess, uuid: c841c903-7657-41f7-bf55-b41dd9456179, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /c841c903-7657-41f7-bf55-b41dd9456179, headers: {Host: 43.201.253.222}}}
+  - {name: 🇦🇺 AU_06 |18.82Mb, server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Pool_ |24.84Mb, server: 142.171.237.214, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/221312281009, headers: {Host: www.23168499.xyz}}}
   - {name: "|40.44Mb", server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|24.84Mb", server: 142.171.237.214, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/221312281009, headers: {Host: www.23168499.xyz}}}
   - {name: "|11.24Mb", server: 39.103.165.178, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "| 2.69Mb", server: 202.79.171.239, port: 443, type: vmess, uuid: fb3583a3-7717-4fe5-9146-3301861f9f41, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/143534141104, headers: {Host: www.46130221.xyz}}}
   - {name: "|10.63Mb", server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: "| 1.07Mb", server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: "|20.93Mb", server: 183.181.36.194, port: 41597, type: vmess, uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: "| 6.37Mb", server: 27.124.8.132, port: 443, type: vmess, uuid: 9e338965-6a07-4a5f-ad97-d57f4a6e6fd3, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/143534141104, headers: {Host: www.98355923.xyz}}}
+  - {name: 🇯🇵 JP_83 |26.63Mb, server: 167.179.111.237, port: 14935, type: vmess, uuid: e961894f-8e90-472f-98d3-09402e4be453, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Pool_ | 6.37Mb, server: 27.124.8.132, port: 443, type: vmess, uuid: 9e338965-6a07-4a5f-ad97-d57f4a6e6fd3, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/143534141104, headers: {Host: www.98355923.xyz}}}
   - {name: "|41.08Mb", server: 8.217.93.104, port: 443, type: vmess, uuid: dcd70249-06fa-4fe7-aaed-cbba86ac125b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /stream, headers: {Host: sptufp5n3o19imic.iwebsocket.com}}}
-  - {name: "|61.00Mb", server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Relay_ | 1.98Mb, server: cf.178820225.xyz, port: 80, type: vmess, uuid: 8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /h5e65fd, headers: {Host: ams.178820225.xyz}}}
   - {name: "|27.23Mb", server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|21.40Mb", server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Relay_ |16.85Mb, server: kellie.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /linkvws, headers: {Host: kellie.makeup}}}
+  - {name: Relay_ |18.62Mb, server: us-3.hajimihajimihajimi.online, port: 80, type: vmess, uuid: dbf67e8f-eca2-4a01-9c87-c8cfea490a51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us-3.hajimihajimihajimi.online}}}
   - {name: "| 3.57Mb", server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws}}
-  - {name: "|16.85Mb", server: kellie.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /linkvws, headers: {Host: kellie.makeup}}}
-  - {name: "|18.62Mb", server: us-3.hajimihajimihajimi.online, port: 80, type: vmess, uuid: dbf67e8f-eca2-4a01-9c87-c8cfea490a51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us-3.hajimihajimihajimi.online}}}
   - {name: "|13.62Mb", server: 162.251.62.115, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "| 1.98Mb", server: cf.178820225.xyz, port: 80, type: vmess, uuid: 8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /h5e65fd, headers: {Host: ams.178820225.xyz}}}
-  - {name: "|37.91Mb", server: 08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: mikasa.erenyeager.cloudns.biz}}}
 proxy-groups:
   - name: Proxies
     type: select
@@ -32,25 +27,20 @@ proxy-groups:
       - JP
       - US
       - TW
-      - "| 5.82Mb"
+      - 🇦🇺 AU_06 |18.82Mb
+      - Pool_ |24.84Mb
       - "|40.44Mb"
-      - "|24.84Mb"
       - "|11.24Mb"
-      - "| 2.69Mb"
       - "|10.63Mb"
-      - "| 1.07Mb"
-      - "|20.93Mb"
-      - "| 6.37Mb"
+      - 🇯🇵 JP_83 |26.63Mb
+      - Pool_ | 6.37Mb
       - "|41.08Mb"
-      - "|61.00Mb"
+      - Relay_ | 1.98Mb
       - "|27.23Mb"
-      - "|21.40Mb"
+      - Relay_ |16.85Mb
+      - Relay_ |18.62Mb
       - "| 3.57Mb"
-      - "|16.85Mb"
-      - "|18.62Mb"
       - "|13.62Mb"
-      - "| 1.98Mb"
-      - "|37.91Mb"
   - name: Apple
     type: select
     proxies:
@@ -103,7 +93,7 @@ proxy-groups:
   - name: JP
     type: select
     proxies:
-      - DIRECT
+      - 🇯🇵 JP_83 |26.63Mb
   - name: US
     type: select
     proxies:
